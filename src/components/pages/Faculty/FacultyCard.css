@@ -1,0 +1,46 @@
+.cardp {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 16px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.55);
+}
+.cardp:hover .picture img {
+  transform: scale(1.20);
+  transition: transform 0.3s ease;
+}
+
+.cardp + .cardp {
+  margin-top: 16px;
+}
+
+.picture img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.contact-details h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.contact-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  text-align: left;
+}
+.drops h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(238, 230, 237);
+  background-color: rgb(85, 18, 105);
+  border: 5px solid rgb(85, 18, 105);
+  border-radius: 5px;
+}
